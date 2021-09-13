@@ -11,8 +11,12 @@ public class App
     public static void main( String[] args )
     {
         Scanner scanner = new Scanner(System.in);
+
+        //Input
         System.out.print("What is the input string? ");
         String input = scanner.next();
+
+        //Output
         System.out.println(input + " has " + input.length() + " characters.");
     }
 }
